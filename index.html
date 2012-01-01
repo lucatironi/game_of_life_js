@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Game Of Life</title>
+    <script type="text/javascript" src="lib/jaws.js"></script>
+    <script type="text/javascript" src="src/Cell.js"></script>
+    <script type="text/javascript" src="src/Board.js"></script>
+    <script type="text/javascript" src="src/GameOfLife.js"></script>
+    <style>
+      canvas {
+        border: 1px solid #aaa;
+      }
+      div#commands {
+        margin: 10px auto;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Conway's Game Of Life</h1>
+    <p>
+      Built with pure Javascript &amp; <a href="http://jawsjs.com">Jaws JS</a> and Test Driven Developed with <a href="http://pivotal.github.com/jasmine">Jasmine</a>.
+    </p>
+    <div id="commands">
+      <button onclick="game.toggleRunning();">Run/Pause</button>
+      <button onclick="game.setup();">Reset</button>
+    </div>
+    <script type="text/javascript">
+      var game = new GameOfLife(500, 500, 10);
+      jaws.start(game, { fps: 10, width: game.width, height: game.height });
+    </script>
+  </body>
+</html>
