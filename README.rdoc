@@ -1,11 +1,14 @@
 = Game of Life (Javascript Implementation)
 
 A TDD implementation of Conway's Game Of Life with Javascript & Jaws, developed with a TDD approach using Jasmine.
+
 Graphics provided by http://jawsjs.com
+
 Javascript Standalone Test Driven Development Framework provided by http://pivotal.github.com/jasmine
 
 == INSTALL & RUN
   git clone git@github.com:lucatironi/game_of_life_js.git
 
 Open index.html to see the example.
+
 Open SpecRunner.html to launch the tests.
