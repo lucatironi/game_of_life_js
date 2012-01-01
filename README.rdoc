@@ -1,6 +1,6 @@
 = Game of Life (Javascript Implementation)
 
-A TDD implementation of Conway's Game Of Life with Javascript & Jaws, developed with a TDD approach using Jasmine.
+An implementation of Conway's Game Of Life with Javascript & Jaws, developed with a TDD approach using Jasmine.
 
 Graphics provided by http://jawsjs.com
 
