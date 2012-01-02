@@ -8,7 +8,7 @@ describe("A Game Of Life", function() {
     expect(new GameOfLife().isRunning()).toBeFalsy();
   });
 
-  describe("has a width and a height", function() {
+  describe("must have a width and a height", function() {
     it("that have a default value", function() {
       expect(new GameOfLife().width).toEqual(320);
       expect(new GameOfLife().height).toEqual(240);
@@ -20,7 +20,7 @@ describe("A Game Of Life", function() {
     });
   });
 
-  describe("has Cell size", function() {
+  describe("must have a cell size", function() {
     it("that has a default value", function() {
       expect(new GameOfLife().cellSize).toEqual(5);
     });
@@ -52,8 +52,8 @@ describe("A Game Of Life", function() {
   });
 
 
-  describe(".board", function() {
-    it("must have a board", function() {
+  describe(".board must return a board", function() {
+    it("that must be defined", function() {
       expect(new GameOfLife().board).toBeDefined();
     });
   });
