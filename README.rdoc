@@ -4,7 +4,7 @@ An implementation of Conway's Game Of Life with Javascript & Jaws, developed wit
 
 Graphics provided by http://jawsjs.com
 
-Javascript Standalone Test Driven Development Framework provided by http://pivotal.github.com/jasmine
+Javascript Standalone Test Driven Development Framework provided by https://jasmine.github.io/
 
 == INSTALL & RUN
   git clone git@github.com:lucatironi/game_of_life_js.git
